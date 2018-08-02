@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-//! Project version number for FPBotLib.
+//! Project version number for PDBotLib.
 FOUNDATION_EXPORT double PDBotLibVersionNumber;
 
-//! Project version string for FPBotLib.
+//! Project version string for PDBotLib.
 FOUNDATION_EXPORT const unsigned char PDBotLibVersionString[];
 
 #import <PDBotLib/PDBotLibClient.h>
