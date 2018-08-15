@@ -16,9 +16,6 @@
 @property (strong, nonatomic) NSString* phone;
 @property (strong, nonatomic) NSString* mail;
 @property (strong, nonatomic) NSString* qq;
-@property (strong, nonatomic) NSString* province;
-@property (strong, nonatomic) NSString* city;
-@property (strong, nonatomic) NSString* county;
 @property (strong, nonatomic) NSString* company;
 @property (strong, nonatomic) NSString* remarks;
 
