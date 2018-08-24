@@ -11,7 +11,7 @@
 #import "PDMessage.h"
 #import "PDMenuItem.h"
 
-#define PDBotLibVersion @"2.0.1"
+#define PDBotLibVersion @"2.0.2"
 
 typedef NS_ENUM(NSInteger, PDConnectionState)
 {
