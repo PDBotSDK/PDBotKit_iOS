@@ -12,8 +12,9 @@
 @interface PDMessageContentMenu : PDMessageContent
 
 @property (nonatomic, assign) PDMessageMenuType menuType;
+@property (nonatomic, strong) NSString* menuName;
 @property (nonatomic, strong) NSArray* menuItems;
 
-- (id)initWithMenuType:(PDMessageMenuType)menuType andMenuItems:(NSArray*)menuItems;
+- (id)initWithType:(PDMessageMenuType)menuType andName:(NSString*)menuName andItems:(NSArray*)menuItems;
 
 @end
