@@ -16,8 +16,9 @@
 #import "PDUIMessageAudioCell.h"
 #import "PDUIMessageRichTextCell.h"
 #import "PDUIMessageTipCell.h"
+#import "PDUIMessageWorkorderCell.h"
 
-@interface PDUIChatController : UIViewController <PDUISuggestionPanelDelegate, PDUIPluginPanelDelegate, PDUIMessageTextCellDelegate, PDUIMessageMenuCellDelegate, PDUIMessageImageCellDelegate, PDUIMessageAudioCellDelegate, PDUIMessageRichTextCellDelegate, PDBotLibClientDelegate>
+@interface PDUIChatController : UIViewController <PDUISuggestionPanelDelegate, PDUIPluginPanelDelegate, PDUIMessageTextCellDelegate, PDUIMessageMenuCellDelegate, PDUIMessageImageCellDelegate, PDUIMessageAudioCellDelegate, PDUIMessageRichTextCellDelegate, PDUIMessageWorkorderCellDelegate, PDBotLibClientDelegate>
 
 /* 聊天列表 */
 @property (nonatomic, strong) UITableView* messageTableView;

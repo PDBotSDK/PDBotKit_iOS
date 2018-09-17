@@ -10,6 +10,8 @@
 
 @interface PDUIWebController : UIViewController
 
++ (void)openWebWithTitle:(NSString*)title andURL:(NSURL*)url andRootController:(UIViewController*)rootController;
+    
 - (id)initWithTitle:(NSString*)title andURL:(NSURL*)url;
 
 @end

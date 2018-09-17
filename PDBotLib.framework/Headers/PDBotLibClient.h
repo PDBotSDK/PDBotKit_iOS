@@ -11,14 +11,15 @@
 #import "PDMessage.h"
 #import "PDMenuItem.h"
 
-#define PDBotLibVersion @"2.0.2"
+#define PDBotLibVersion @"2.1.0"
 
 typedef NS_ENUM(NSInteger, PDConnectionState)
 {
     PDConnectionIdel            = 0,
     PDConnectionConnecting      = 1,
-    PDConnectionConnected       = 2,
-    PDConnectionError           = 3,
+    PDConnectionConnectedRobot  = 2,
+    PDConnectionConnectedHuman  = 3,
+    PDConnectionError           = 4,
 };
 
 @protocol PDBotLibClientDelegate <NSObject>
@@ -59,5 +60,7 @@ typedef NS_ENUM(NSInteger, PDConnectionState)
 - (void)removeMessage:(PDMessage*)message;
 - (void)removeMessageBefore:(NSDate*)date;
 - (void)removeAllMessages;
+
+- (NSString*)getLeaveMessageUrl;
 
 @end

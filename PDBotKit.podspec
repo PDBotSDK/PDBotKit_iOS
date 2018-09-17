@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PDBotKit'
-  s.version          = '2.0.2'
+  s.version          = '2.1.0'
   s.summary          = '4Paradigm intelligent customer service SDK'
 
 # This description is used to generate tags and improve search results.

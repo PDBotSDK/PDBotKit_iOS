@@ -24,4 +24,5 @@ FOUNDATION_EXPORT const unsigned char PDBotLibVersionString[];
 #import <PDBotLib/PDMessageContentAudio.h>
 #import <PDBotLib/PDMessageContentRichText.h>
 #import <PDBotLib/PDMessageContentTip.h>
+#import <PDBotLib/PDMessageContentWorkorder.h>
 #import <PDBotLib/PDMenuItem.h>
