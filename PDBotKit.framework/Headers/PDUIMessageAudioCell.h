@@ -25,4 +25,9 @@
  */
 @property (nonatomic, strong) UIImageView* _Nonnull audioImageView;
 
+/*
+ 显示音频时长
+ */
+@property (nonatomic, strong) UILabel* _Nonnull audioDuration;
+
 @end

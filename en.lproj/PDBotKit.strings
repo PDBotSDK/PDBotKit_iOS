@@ -14,6 +14,7 @@
 "Camera" = "Camera";
 "File" = "File";
 "Human" = "Human";
+"Message" = "Message";
 
 "Connecting" = "Connecting ...";
 "ConnectionFailed" = "Connection failed";
@@ -36,3 +37,4 @@
 
 "MessageMenu" = "Menu";
 "MessageRecommend" = "Do you want to ask";
+"ClickHere" = "Click here";

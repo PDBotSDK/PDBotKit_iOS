@@ -29,5 +29,7 @@ FOUNDATION_EXPORT const unsigned char PDBotKitVersionString[];
 #import <PDBotKit/PDUIMessageImageCell.h>
 #import <PDBotKit/PDUIMessageAudioCell.h>
 #import <PDBotKit/PDUIMessageRichTextCell.h>
+#import <PDBotKit/PDUIMessageTipCell.h>
+#import <PDBotKit/PDUIMessageWorkorderCell.h>
 #import <PDBotKit/PDUIMessageModel.h>
 

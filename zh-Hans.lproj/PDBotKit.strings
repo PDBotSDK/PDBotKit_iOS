@@ -14,6 +14,7 @@
 "Camera" = "拍摄";
 "File" = "文件";
 "Human" = "转人工";
+"Message" = "留言";
 
 "Connecting" = "正在连接...";
 "ConnectionFailed" = "连接失败";
@@ -36,3 +37,4 @@
 
 "MessageMenu" = "菜单";
 "MessageRecommend" = "您是不是想问下面的问题";
+"ClickHere" = "点击此处";

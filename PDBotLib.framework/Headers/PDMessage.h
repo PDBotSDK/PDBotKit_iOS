@@ -25,6 +25,7 @@ typedef NS_ENUM(NSInteger, PDMessageContentType)
     PDMessageContentTypeAudio          = 5,
     PDMessageContentTypeVideo          = 6,
     PDMessageContentTypeTip            = 7,
+    PDMessageContentTypeWorkorder      = 8,
 };
 
 @interface PDMessage : NSObject <NSCoding>
