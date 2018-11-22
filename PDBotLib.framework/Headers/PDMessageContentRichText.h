@@ -14,6 +14,7 @@
 @property (nonatomic, strong) NSString* title;
 @property (nonatomic, strong) NSString* digest;
 @property (nonatomic, strong) NSString* url;
+@property (nonatomic, assign) BOOL directShow;
 
 - (id)initWithCover:(NSString*)coverPath andTitle:(NSString*)title andDigest:(NSString*)digest andUrl:(NSString*)url;
 

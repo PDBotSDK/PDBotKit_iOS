@@ -11,7 +11,7 @@
 #import "PDMessage.h"
 #import "PDMenuItem.h"
 
-#define PDBotLibVersion @"2.1.0"
+#define PDBotLibVersion @"2.2.0"
 
 typedef NS_ENUM(NSInteger, PDConnectionState)
 {
@@ -41,6 +41,7 @@ typedef NS_ENUM(NSInteger, PDConnectionState)
 @property (nonatomic, strong) NSString* robotName;
 @property (nonatomic, assign) BOOL enableHuman;
 @property (nonatomic, assign) BOOL enableEvaluate;
+@property (nonatomic, assign) BOOL enableFeedback;
 
 + (instancetype)sharedClient;
 
@@ -54,6 +55,7 @@ typedef NS_ENUM(NSInteger, PDConnectionState)
 - (void)askQuestionByImage:(NSURL*)file;
 - (void)askQuestionByAudio:(NSURL*)file;
 - (void)transferToHumanServices;
+- (void)sendFeedbackById:(NSString*)feedbackId isLike:(BOOL)like;
 
 - (NSArray*)getMessageList;
 - (NSArray*)getMessageListBrfore:(int)msgId maxSize:(int)size;

@@ -32,6 +32,16 @@
 @property (nonatomic, strong) UIImageView* _Nonnull messageBubbleView;
 
 /*
+ 顶按钮
+ */
+@property (nonatomic, strong) UIImageView* _Nonnull feedbackLikeView;
+
+/*
+ 踩按钮
+ */
+@property (nonatomic, strong) UIImageView* _Nonnull feedbackDislikeView;
+
+/*
  显示的内容
  */
 @property (nonatomic, strong) UIView* _Nonnull messageContentView;
