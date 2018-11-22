@@ -36,6 +36,8 @@ typedef NS_ENUM(NSInteger, PDMessageContentType)
 @property (nonatomic, assign) PDMessageContentType contentType;
 @property (nonatomic, strong) PDMessageContent* content;
 
+@property (nonatomic, strong) NSString* feedbackId;
+
 - (id)initWithDirection:(PDMessageDirection)direction
          andContentType:(PDMessageContentType)contentType
       andMessageContent:(PDMessageContent*)content;

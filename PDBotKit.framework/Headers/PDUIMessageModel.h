@@ -35,6 +35,16 @@
 @property (nonatomic, strong) PDMessageContent* content;
 
 /*
+ 反馈编号
+ */
+@property (nonatomic, strong) NSString* feedbackId;
+
+/*
+ 反馈结果
+ */
+@property (nonatomic, strong) NSNumber* feedbackResult;
+
+/*
  是否显示时间
  */
 @property (nonatomic, assign) BOOL isDisplayMessageTime;
