@@ -13,6 +13,7 @@ typedef NS_ENUM(NSInteger, PDMessageMenuType)
 {
     PDMessageMenuTypeMenu           = 0,
     PDMessageMenuTypeRecommend      = 1,
+    PDMessageMenuTypeAcceptGroup    = 2,
 };
 
 @interface PDMenuItem : NSObject <NSCoding>
