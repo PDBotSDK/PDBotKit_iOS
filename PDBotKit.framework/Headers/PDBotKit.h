@@ -21,6 +21,7 @@ FOUNDATION_EXPORT const unsigned char PDBotKitVersionString[];
 #import <PDBotKit/PDUIImageController.h>
 #import <PDBotKit/PDUIWebController.h>
 #import <PDBotKit/PDUIRecordView.h>
+#import <PDBotKit/PDUIEmojiPanel.h>
 #import <PDBotKit/PDUIPluginPanel.h>
 #import <PDBotKit/PDUISuggestionPanel.h>
 #import <PDBotKit/PDUIMessageBaseCell.h>
@@ -31,5 +32,5 @@ FOUNDATION_EXPORT const unsigned char PDBotKitVersionString[];
 #import <PDBotKit/PDUIMessageRichTextCell.h>
 #import <PDBotKit/PDUIMessageTipCell.h>
 #import <PDBotKit/PDUIMessageWorkorderCell.h>
+#import <PDBotKit/PDUIMessageEvaluateCell.h>
 #import <PDBotKit/PDUIMessageModel.h>
-

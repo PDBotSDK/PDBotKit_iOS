@@ -15,6 +15,7 @@
 "File" = "文件";
 "Human" = "转人工";
 "Message" = "留言";
+"Evaluate" = "评价";
 
 "Connecting" = "正在连接...";
 "ConnectionFailed" = "连接失败";
@@ -37,4 +38,6 @@
 
 "MessageMenu" = "菜单";
 "MessageRecommend" = "您是不是想问下面的问题";
+"MessageAcceptGroup" = "请选择您要咨询的业务";
 "ClickHere" = "点击此处";
+"Evaluation" = "进行评价";

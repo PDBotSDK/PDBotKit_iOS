@@ -25,4 +25,5 @@ FOUNDATION_EXPORT const unsigned char PDBotLibVersionString[];
 #import <PDBotLib/PDMessageContentRichText.h>
 #import <PDBotLib/PDMessageContentTip.h>
 #import <PDBotLib/PDMessageContentWorkorder.h>
+#import <PDBotLib/PDMessageContentEvaluate.h>
 #import <PDBotLib/PDMenuItem.h>

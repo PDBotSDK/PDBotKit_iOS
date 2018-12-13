@@ -15,6 +15,7 @@
 "File" = "File";
 "Human" = "Human";
 "Message" = "Message";
+"Evaluate" = "Evaluate";
 
 "Connecting" = "Connecting ...";
 "ConnectionFailed" = "Connection failed";
@@ -37,4 +38,6 @@
 
 "MessageMenu" = "Menu";
 "MessageRecommend" = "Do you want to ask";
+"MessageAcceptGroup" = "Select business";
 "ClickHere" = "Click here";
+"Evaluation" = "Evaluation";
