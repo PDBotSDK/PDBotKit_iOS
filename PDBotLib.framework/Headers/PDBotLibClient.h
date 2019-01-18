@@ -11,7 +11,7 @@
 #import "PDMessage.h"
 #import "PDMenuItem.h"
 
-#define PDBotLibVersion @"2.3.0"
+#define PDBotLibVersion @"2.4.0"
 
 typedef NS_ENUM(NSInteger, PDConnectionState)
 {
@@ -63,6 +63,7 @@ typedef NS_ENUM(NSInteger, PDConnectionState)
 - (void)removeMessageBefore:(NSDate*)date;
 - (void)removeAllMessages;
 
+- (NSString*)getAvatarPath;
 - (NSString*)getLeaveMessageUrl;
 - (NSString*)getHumanEvaluateUrl;
 
