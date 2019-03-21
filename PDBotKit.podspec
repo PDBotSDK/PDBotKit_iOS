@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.frameworks =  "AVFoundation","MobileCoreServices"
   s.library   = 'sqlite3',"icucore"
-  s.resources = 'PDBotKit.bundle',"zh-Hans.lproj/PDBotKit.strings","en.lproj/PDBotKit.strings"
+  s.resources = 'PDBotKit.bundle',"zh-Hans.lproj","en.lproj"
   s.ios.vendored_frameworks = 'PDBotLib.framework','PDBotKit.framework'
 
 end
