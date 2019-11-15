@@ -11,7 +11,7 @@
 #import "PDMessage.h"
 #import "PDMenuItem.h"
 
-#define PDBotLibVersion @"2.5.1"
+#define PDBotLibVersion @"2.6.0"
 
 typedef NS_ENUM(NSInteger, PDConnectionState)
 {
@@ -46,6 +46,7 @@ typedef NS_ENUM(NSInteger, PDConnectionState)
 + (instancetype)sharedClient;
 
 - (void)initWithAccessKey:(NSString*)accessKey;
+- (void)setSource:(NSString*)visitorSource;
 - (void)setVisitor:(PDVisitorInfo*)visitorInfo;
 - (void)connect;
 - (void)disconnect;
