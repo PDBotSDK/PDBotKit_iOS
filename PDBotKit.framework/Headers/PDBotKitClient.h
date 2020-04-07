@@ -13,6 +13,7 @@
 
 @property (strong, nonatomic) UIImage* userPortrait;
 @property (strong, nonatomic) UIImage* robotPortrait;
+@property (strong, nonatomic) UIImage* humanPortrait;
 
 + (instancetype)sharedClient;
 

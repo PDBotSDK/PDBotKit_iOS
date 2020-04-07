@@ -13,6 +13,7 @@ typedef NS_ENUM(NSInteger, PDMessageDirection)
 {
     PDMessageDirectionSend  = 0,
     PDMessageDirectionRecv  = 1,
+    PDMessageDirectionHuman = 2,
 };
 
 typedef NS_ENUM(NSInteger, PDMessageContentType)
